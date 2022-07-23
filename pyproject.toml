@@ -9,7 +9,7 @@ authors = [
 dependencies = []
 
 [project.urls]
-repository = "https://github.com/la-catalog/python-deployment"
+repository = "https://github.com/la-catalog/python-cronjob"
 
 [tool.pdm]
 
