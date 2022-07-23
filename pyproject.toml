@@ -1,7 +1,6 @@
 [project]
 name = "python-cronjob"
 version = "0.1.0"
-description = "Short description"
 readme = "README.md"
 requires-python = ">=3.10"
 authors = [
@@ -9,7 +8,13 @@ authors = [
 ]
 dependencies = []
 
+[project.urls]
+repository = "https://github.com/la-catalog/python-deployment"
+
 [tool.pdm]
+
+[tool.pdm.scripts]
+sort = "python -m isort -v --ac ."
 
 [tool.pdm.dev-dependencies]
 lint = [
